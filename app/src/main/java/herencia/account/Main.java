@@ -6,11 +6,10 @@ import herencia.account.transaction.Bank;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== Ejercicio 4: Sistema Bancario ===");
         List<BankAccount> accounts = new ArrayList<>();
-        accounts.add(new SavingsAccount("AH-101", 1000.0, 0.05));
-        accounts.add(new CheckingAccount("CC-202", 2500.0));
-        accounts.add(new PremiumSavingsAccount("PR-303", 5000.0, 0.05, 0.03));
+        accounts.add(new SavingsAccount("1", 100000.0, 0.05));
+        accounts.add(new CheckingAccount("2", 250000.0, 5000.0));
+        accounts.add(new PremiumSavingsAccount("3", 500000.0, 0.05, 0.03));
 
         Bank bank = new Bank();
         bank.applyInterests(accounts);

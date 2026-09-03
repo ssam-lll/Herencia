@@ -14,15 +14,17 @@ public class Animal {
         this.age = age;
     }
 
-    public String getName() {
+    public String getName(){
         return this.name;
+
     }
 
-    public int getAge() {
+    public int getAge(){
         return this.age;
+
     }
 
     public void makeSound() {
-        throw new UnsupportedOperationException("El método makeSound() debe ser sobrescrito.");
+        
     }
 }

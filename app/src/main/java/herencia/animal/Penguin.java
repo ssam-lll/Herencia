@@ -8,6 +8,6 @@ public class Penguin extends Animal {
 
     @Override
     public void makeSound() {
-        System.out.println("Honk");
+        System.out.println("hola pinguino");
     }
 }

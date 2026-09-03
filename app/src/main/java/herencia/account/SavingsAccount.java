@@ -7,15 +7,7 @@ public class SavingsAccount extends BankAccount {
         super(accountNumber, balance);
         this.interestRate = interestRate;
     }
-
-    public double getInterestRate() {
-        return this.interestRate;
-    }
-
-    public void setInterestRate(double interestRate) {
-        this.interestRate = interestRate;
-    }
-
+    
     @Override
     public double calculateInterest() {
         return getBalance() * this.interestRate;
